@@ -20,4 +20,4 @@ jobs:
         id: check2
         uses: icrawl/action-eslint@v1
         with:
-          custom-glob: "./**/*.ts"
+          custom-glob: "./**/*.ts{,x}"
